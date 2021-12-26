@@ -1,0 +1,158 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Coda&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lemonada:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+:root{
+    --fonte1:'Balsamiq Sans', cursive;
+    --fonte2:'Lemonada', cursive;
+    --fonte3:'Coda', cursive;;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html, body{
+    min-height: 100vh;
+    background-color: darkgray;
+    font-family: var(--fonte2);
+}
+a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: bolder;
+}
+a:hover{
+    text-decoration: underline;
+}
+header{
+    text-align: center;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.637), black);
+    color: #fff;
+}
+header > h1{
+    padding-top: 40px;
+    font-family: var(--fonte1);
+    font-size: 2em;
+    font-variant: small-caps;
+}
+header >p{
+    padding-bottom: 40px;
+    font-family: var(--fonte2);
+    font-size: 1.7em;
+}
+section{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left: 20px;
+    line-height: 25px;
+    font-size: 1.3em;
+    font-family: var(--fonte3);
+}
+section > p{
+    padding-bottom: 2em;
+}
+section.normal{
+    background-color: #fff;
+    color: black;
+}
+section.foto{
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.411);
+    box-shadow: inset 6px 6px 4px rgba(0, 0, 0, 0.199);
+    background-attachment: fixed ;
+}
+section.foto > p{
+    padding: 5px;
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.603);
+    width: 400px;
+    background-color: rgba(0, 0, 0, 0.315);
+}
+section#img01{
+    background-image: url('../imagens/img01.jpg');
+    background-position: center top;
+    background-size: cover;
+}
+section#img02{
+    background-image: url('../imagens/img02.jpg');
+    background-position: top left;
+    background-size: cover;
+}
+section#img03{
+    background-image: url('../imagens/img03.jpg');
+    background-position: center bottom;
+    background-size: cover;
+}
+section#img04{
+    background-image: url('../imagens/img04.jpg');
+    background-position: center;
+    background-size: cover;
+}
+section#img05{
+    background-image: url('../imagens/img05.jpg');
+    background-position: center bottom;
+    background-size: cover;
+}
+section#img06{
+    background-image: url('../imagens/img06.jpg');
+    background-position: center top;
+    background-size: cover;
+}
+section#img07{
+    background-image: url('../imagens/img07.jpg');
+    background-position: center top;
+    background-size: cover;
+}section#img08{
+    background-image: url('../imagens/img08.jpg');
+    background-position: top center;
+    background-size: cover;
+}
+section#img09{
+    background-image: url('../imagens/img09.jpg');
+    background-position: center bottom;
+    background-size: cover;
+}
+section#img10{
+    background-image: url('../imagens/img10.jpg');
+    background-position: center right;
+    background-size: cover;
+}
+footer{
+    background-color: black;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+@media (max-width:600px){
+    html,body{
+        word-break: break-all;
+    }
+    header > h1,
+    footer{
+        padding-top: 15px;
+        font-size: 1.5em;
+        display: flex;
+        flex-direction: column;
+    }
+    header >p{
+        padding-bottom: 15px;
+        font-family: var(--fonte2);
+        font-size: 1.3em;
+        display: blackk;
+    }
+    section{
+        padding-left: 5px;
+        font-size: 1.2em;
+    }
+    section.foto > p{
+        width: 240px;
+    }
+    footer{
+
+        font-size: 1em;
+        padding: 5px;
+    }
+}
