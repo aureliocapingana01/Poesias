@@ -150,9 +150,13 @@ footer{
     section.foto > p{
         width: 300px;
     }
+    section.normal{
+        background-color: #fff;
+        color: black;
+    }
     footer{
 
-        font-size: 13px;
+        font-size: 12px;
         padding: 5px;
     }
 }
