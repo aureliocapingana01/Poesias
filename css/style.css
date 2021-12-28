@@ -41,16 +41,15 @@ header > h1{
 header >p{
     padding-bottom: 40px;
     font-family: var(--fonte2);
-    font-size: 1.6em;
+    font-size: 1.7em;
 }
 section{
     padding-top: 10vh;
     padding-bottom: 10vh;
     padding-left: 20px;
     line-height: 25px;
-    font-size: 1.2em;
+    font-size: 1.3em;
     font-family: var(--fonte3);
-    padding: 5px;
 }
 section > p{
     padding-bottom: 2em;
@@ -68,7 +67,7 @@ section.foto{
 section.foto > p{
     padding: 5px;
     text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.603);
-    width: 450px;
+    width: 400px;
     background-color: rgba(0, 0, 0, 0.315);
 }
 section#img01{
@@ -77,7 +76,7 @@ section#img01{
     background-size: cover;
 }
 section#img02{
-    background-image: url('../imagens/img02.jpg');
+    background-image: url('../imagens/img020.jpg');
     background-position: top left;
     background-size: cover;
 }
@@ -131,31 +130,39 @@ footer{
     html,body{
         word-break: break-all;
     }
-    header > h1,
-    footer{
+    header > h1{
         padding-top: 15px;
-        font-size: 1.5em;
+        font-size:18px;
+        text-align: center;
         display: flex;
         flex-direction: column;
     }
     header >p{
         padding-bottom: 15px;
         font-family: var(--fonte2);
-        font-size: 1.3em;
+        font-size: 16px;
     }
     section{
-        padding-left: 5px;
-        font-size: 1.2em;
+        padding-left: 10px;
+        font-size: 16px;
     }
     section.foto > p{
-        width: 100wh;
+        width: 300px;
     }
-    section.normal{
-        background-color: #fff;
-        color: black;
+    section#img02{
+        background-image: url('../imagens/img02.jpg');
+        background-position: center bottom;
+        background-size: cover;
+    }
+    section#img03{
+        background-image: url('../imagens/img03b.jpg');
+        background-position: center bottom;
+    }
+    section#img10{
+        background-image: url('../imagens/img10b.jpg');
+        background-position: center bottom;
     }
     footer{
-
         font-size: 12px;
         padding: 5px;
     }
