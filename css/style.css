@@ -119,6 +119,11 @@ section#img10{
     background-position: center right;
     background-size: cover;
 }
+section#img11{
+    background-image: url('../imagens/img11.jpg');
+    background-position: center top;
+    background-size: cover;
+}
 footer{
     background-color: black;
     color: #fff;
@@ -162,6 +167,10 @@ footer{
         background-image: url('../imagens/img10b.jpg');
         background-position: center bottom;
     }
+    /* section#img11{
+        background-image: url('../imagens/img10b.jpg');
+        background-position: center bottom;
+    } */
     footer{
         font-size: 12px;
         padding: 5px;
